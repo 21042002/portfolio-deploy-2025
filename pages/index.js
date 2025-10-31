@@ -4,6 +4,5 @@ function Home() {
 }
 
 
-
 // Exportar função
 export default Home;
