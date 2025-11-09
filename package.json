@@ -4,7 +4,9 @@
   "description": "Portifolio de deploy contínuo para aplicações web, utilizando, \"Docker\", \"GitHub Actions\" e \"Vercel\". O objetivo do projeto é facilitar o processo de publicação de aplicações, reduzindo falhas manuais e tempo de configuração.",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
   },
   "author": "",
   "license": "MIT",
@@ -12,5 +14,8 @@
     "next": "^15.5.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2"
   }
 }
